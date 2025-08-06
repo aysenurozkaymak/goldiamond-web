@@ -41,7 +41,7 @@ Kullanıcılar ürünleri görüntüleyebilir, kategori bazlı filtreleme yapabi
 ## ⚙️ Kurulum
 
 ```bash
-git clone https://github.com/kullaniciadi/goldiamond-web.git
+git clone https://github.com/aysenurozkaymak/goldiamond-web.git
 cd goldiamond-web
 npm install
 npm start
