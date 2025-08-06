@@ -1,0 +1,47 @@
+.product-showcase {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 8%;
+  background-color: #fff;
+}
+.product-block {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* ↓ Burayı çok düşürerek yazı ve resimleri yaklaştırıyoruz */
+  padding: 0 350px;
+  background-color: #fff;
+}
+
+.product-text {
+  flex: 1;
+  min-width: 300px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+.product-text h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.product-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  margin: 15px 0 5px;
+}
+
+.product-text p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.product-image img {
+  width: 520px;
+  height: auto;
+  object-fit: contain;
+}

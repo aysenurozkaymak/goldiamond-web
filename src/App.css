@@ -1,0 +1,90 @@
+/* ========== GLOBAL ========== */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+}
+
+h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ========== KAPSAYICI ========== */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  position: sticky;
+  top: 0px;
+  background-color: #fff6eb;
+  padding: 20px 50px;
+  justify-content: space-between;
+  }
+
+/* ========== FOOTER ========== */
+footer {
+  margin-top: auto;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .hero-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .product-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product-image img {
+    width: 80%;
+  }
+
+  .category-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .style-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col {
+    margin-bottom: 20px;
+  }
+
+  .searchbar-container {
+    flex-direction: column;
+  }
+
+  .searchbar-container input {
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .searchbar-container button {
+    border-radius: 10px;
+    width: 100px;
+  }
+}

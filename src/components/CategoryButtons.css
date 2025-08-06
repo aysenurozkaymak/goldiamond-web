@@ -1,0 +1,19 @@
+/* src/components/CategoryButtons.css */
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.category-buttons button {
+padding: 14px 28px;
+  background-color: #fff5e5;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+
+}

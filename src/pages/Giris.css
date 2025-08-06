@@ -1,0 +1,86 @@
+.giris-kapsayici {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background: #fff;
+}
+
+.giris-kutusu {
+  background: #fffaf3;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.giris-kutusu h2 {
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.giris-kutusu input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.giris-kutusu button {
+  background: linear-gradient(to right, gold, #e0c300);
+  color: #111;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.giris-kutusu button:hover {
+  background: #d1b000;
+}
+
+.hata {
+  color: crimson;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.kaydol-sorusu {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.kaydol-linki {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.kaydol-linki:hover {
+  text-decoration: underline;
+}
+.giris-sorusu {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #444;
+  text-align: center;
+}
+
+.giris-linki {
+  color: #a8842f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.giris-linki:hover {
+  color: #ffbf00;
+  text-decoration: underline;
+}

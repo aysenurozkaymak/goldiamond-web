@@ -1,0 +1,41 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #fef5e7;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  font-size: 14px;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.footer-col {
+  min-width: 180px;
+}
+
+.footer-col h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-col p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.social li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

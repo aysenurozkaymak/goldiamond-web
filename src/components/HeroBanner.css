@@ -1,0 +1,44 @@
+/* src/components/HeroBanner.css */
+.hero-banner {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.banner-image {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+
+.banner-image img {
+  width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+.banner-button {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.discover-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

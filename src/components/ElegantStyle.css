@@ -1,0 +1,23 @@
+/* src/components/ElegantStyle.css */
+.elegant-style {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.style-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.style-card {
+  max-width: 220px;
+}
+
+.style-card img {
+  width: 115%;
+  border-radius: px;
+}
